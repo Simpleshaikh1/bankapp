@@ -1,7 +1,7 @@
 package main
 
-import "fintechApp/migrations"
+import "fintechApp/api"
 
 func main() {
-	migrations.Migrate()
+	api.StartServer()
 }
